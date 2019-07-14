@@ -1,3 +1,3 @@
-console.log("༼ つ ◕_◕ ༽つ ");
+console.log("༼ つ ◕_◕ ༽つ app.js is linked");
 
 // Global Variables

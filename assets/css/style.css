@@ -1,3 +1,7 @@
+body {
+    background-color: antiquewhite;
+}
+
 .jumbotron {
     text-align: center;
     color: aliceblue;
@@ -8,5 +12,4 @@
 .card-header {
     color: aliceblue;
     background-color: cornflowerblue;
-    margin-top: 20px;
 }

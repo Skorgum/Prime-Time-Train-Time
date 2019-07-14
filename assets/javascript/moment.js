@@ -1,5 +1,5 @@
 //! moment.js
-console.log("༼ つ ◕_◕ ༽つ ");
+console.log("༼ つ ◕_◕ ༽つ moment.js is linked");
 
 ;(function (global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
