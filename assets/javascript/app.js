@@ -69,7 +69,7 @@ database.ref().on("child_added", function(childSnapshot) {
 
     // Next train departure time calculation
     var nextDeparture = moment().add(departureMinutes, "minutes");
-    var departureTime = moment(nextDeparture).format("hh:mm")
+    var departureTime = moment(nextDeparture).format("HH:mm")
 
     // Using jQuery to create new row & append to trainTable
     var newRow = $("<tr>").append(
