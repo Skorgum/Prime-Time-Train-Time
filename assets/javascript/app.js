@@ -49,7 +49,7 @@ $("#addTrain").on("click", function(event) {
 });
 
 database.ref().on("child_added", function(childSnapshot) {
-    console.log(childSnapshot.val());
+    // console.log(childSnapshot.val());
 
     var trainName = childSnapshot.val().name;
     var destination = childSnapshot.val().dest;
