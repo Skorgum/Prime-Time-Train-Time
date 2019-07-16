@@ -16,6 +16,7 @@ firebase.initializeApp(firebaseConfig);
 var database = firebase.database();
 
 //   Add train event listener
+//  TODO:  prevent empty objects from pushing to Firebase
 $("#addTrain").on("click", function(event) {
     event.preventDefault();
     console.log("༼ つ ◕_◕ ༽つ addTrain button was clicked!")
